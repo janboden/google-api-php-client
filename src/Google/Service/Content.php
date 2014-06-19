@@ -4539,6 +4539,7 @@ class Google_Service_Content_ProductsCustomBatchResponseEntry extends Google_Mod
   public $kind;
   protected $productType = 'Google_Service_Content_Product';
   protected $productDataType = '';
+  protected $errors;
 
   public function setBatchId($batchId)
   {
